@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Fashion Reborn</title>
-
 </head>
 
 <body>
@@ -18,17 +16,24 @@
 
             <nav>
                 <div>
-                    <img width="90" height="100%" src="images/logo.png">
+                    <img src="imagens/Logo fashion reborn.png">
                 </div>
-                <ul>
-                    <li><a class="menu-option" href="">Home</a></li>
-                    <li><a class="menu-option" href="">Serviços</a></li>
-                    <li><a class="menu-option" href="">Informações</a></li>
-                    <li><a class="menu-option" href="">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+                <nav>
+                <div class="barra">
+                    <form> 
+                        <input type="search" name="search" placeholder="Pesquisar">
+                        <input type="submit" value="Buscar">
+                    </form>
+                </div>  
+				    <ul>
+					   <li><a href="">Home</a></li>
+					   <li><a href="">Roupas</a></li>
+					   <li><a href="">Informações</a></li>
+					   <li><a href="">Entrar</a></li>
+				    </ul>	
+                </nav>
+            </div>
+</header>
     <div class='container'>
         <h1 class="nome-loja">Fashion Reborn</h1>
         <div class="menu-principal">
@@ -52,8 +57,21 @@
     <footer>
         <div class='footer'>
             <div class="rodape1">
-                <img src="images/telefone.png">
-                <p>(77) 3441-2106</p>
+            <p style="font-family:sans-serif;">©Todos Direitos Reservados FashionReborn Ltda.</p>
+			<img src="imagens/telefone.png"><p>(77) 3441-2106</p>
+			</div>
+			<div class="rodape1">
+			<img src="imagens/instagram.png"><p>@fashion_reborn</p>
+			</div>
+			<div class="rodape1">
+			<img src="imagens/facebook.png"><p>FashionRebornRoupas</p>
+			</div>
+			<div class="rodape1">
+			<img src="imagens/twiter.png"><p>fashionReborn_roupas</p>
+			</div>
+			<div id="endereco">
+			<p>Rua: Praça da Bandeira, 683,
+			Centro,Malhada de Pedras-BA</p>
             </div>
             <div class="rodape1">
                 <img src="images/instagram.png">
